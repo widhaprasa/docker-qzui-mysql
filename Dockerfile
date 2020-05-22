@@ -7,4 +7,4 @@ ENV MYSQL_USER=quartz
 ENV MYSQL_PASSWORD=quartz
 
 # Initial database
-ADD 001-init-quartz.sql /docker-entrypoint-initdb.d/001-init-quartz.sql
+ADD 001-init-quartz.sql /docker-entrypoint-initdb.d/001-init-quartz.sh
